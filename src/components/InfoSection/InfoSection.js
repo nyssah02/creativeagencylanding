@@ -48,6 +48,7 @@ const TextH2 = styled.h2`
 const TextP = styled.p`
   line-height: 30px;
   padding-bottom: 20px;
+  color: hsl(213, 9%, 39%);
 `
 
 const TextA = styled.a`
@@ -56,6 +57,7 @@ const TextA = styled.a`
   font-family: 'Fraunces', serif;
   font-size: 0.8rem;
   color: hsl(212, 27%, 19%);
+  text-decoration: none;
 `
 
 const ImageWrapper = styled.div`
@@ -81,7 +83,7 @@ const InfoSection = ({ infoData }) => {
                 <TextWrapper>
                   <TextH2>{info.h2}</TextH2>
                   <TextP>{info.p}</TextP>
-                  <TextA>LEARN MORE</TextA>
+                  <TextA href='http://www.google.com'>LEARN MORE</TextA>
                 </TextWrapper>
               </TextContainer>
               <ImageWrapper>

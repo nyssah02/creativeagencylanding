@@ -4,7 +4,6 @@ import logo from '../../images/logo.svg'
 
 const NavbarContainer = styled.div`
   height: 80px;
-  margin-top: -80px;
   width: 100%;
   background: transparent;
   display: flex;
@@ -13,7 +12,7 @@ const NavbarContainer = styled.div`
   color: #fff;
   top: 0;
   z-index: 999;
-  position: sticky;
+  position: absolute;
 `
 
 const NavbarWrapper = styled.div`
@@ -48,6 +47,7 @@ const Button = styled.button`
   font-family: 'Fraunces', serif;
   border-radius: 30px;
   cursor: pointer;
+  color: hsl(212, 27%, 19%);
 `
 
 const Navbar = () => {

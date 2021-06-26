@@ -6,6 +6,9 @@ import { InfoData } from './components/InfoSection/Data'
 import SkillsSection from './components/SkillsSection/SkillsSection'
 import { SkillsData } from './components/SkillsSection/Data'
 import TestimonialSection from './components/TestimonialSection/TestimonialSection'
+import { TestiData } from './components/TestimonialSection/Data'
+import GallerySection from './components/GallerySection/GallerySection'
+import FooterSection from './components/FooterSection/FooterSection'
 
 function App() {
   return (
@@ -14,7 +17,9 @@ function App() {
       <HeroSection />
       <InfoSection infoData={InfoData} />
       <SkillsSection skillsData={SkillsData} />
-      <TestimonialSection />
+      <TestimonialSection testiData={TestiData} />
+      <GallerySection />
+      <FooterSection />
     </>
   )
 }
